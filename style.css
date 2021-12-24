@@ -1,0 +1,75 @@
+body{
+    font-family: 'Comic Sans MS'
+}
+
+soyezh{
+  font-family: 'Noto Sans Japanese', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+noel{
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+merryc{
+  font-family: 'Kolker Brush', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+div{
+    width: 475px;
+    height: 130px;
+    background-color: white;
+    color: black;
+    position: relative;
+    -webkit-animation-name: chgt-couleur;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-interation-count: infinite;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: chgt-couleur;
+    -moz-animation-duration: 4s;
+    -moz-animation-interation-count: infinite;
+    -moz-animation-direction: alternate;
+
+    -o-animation-name: chgt-couleur;
+    -o-animation-duration: 4s;
+    -o-animation-interation-count: infinite;
+    -o-animation-direction: alternate;
+
+    animation-name: chgt-couleur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@-webkit-keyframes chgt-couleur{
+  0%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+  25%{background-color: black; top: 0px; left: 1430px; color: white; top: 0px; left: 1430px;}
+  50%{background-color: white; top: 0px; left: 1430px; color: black; top: 0px; left: 1430px;}
+  75%{background-color: black; top: 0px; left: 0px; color: white; top: 0px; left: 0px;}
+  100%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+}
+@-moz-keyframes chgt-couleur{
+  0%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+  25%{background-color: black; top: 0px; left: 1430px; color: white; top: 0px; left: 1430px;}
+  50%{background-color: white; top: 0px; left: 1430px; color: black; top: 0px; left: 1430px;}
+  75%{background-color: black; top: 0px; left: 0px; color: white; top: 0px; left: 0px;}
+  100%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+}
+@-o-keyframes chgt-couleur{
+  0%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+  25%{background-color: black; top: 0px; left: 1430px; color: white; top: 0px; left: 1430px;}
+  50%{background-color: white; top: 0px; left: 1430px; color: black; top: 0px; left: 1430px;}
+  75%{background-color: black; top: 0px; left: 0px; color: white; top: 0px; left: 0px;}
+  100%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+}
+@keyframes chgt-couleur{
+  0%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+  50%{background-color: black; top: 0px; left: 1430px; color: white; top: 0px; left: 1430px;}
+  100%{background-color: white; top: 0px; left: 0px; color: black; top: 0px; left: 0px;}
+}
